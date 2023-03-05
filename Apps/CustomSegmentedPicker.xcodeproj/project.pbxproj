@@ -11,7 +11,6 @@
 		2A2ED88429B4F4E9002E2E78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2ED88329B4F4E9002E2E78 /* ContentView.swift */; };
 		2A2ED88629B4F4EA002E2E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2ED88529B4F4EA002E2E78 /* Assets.xcassets */; };
 		2A2ED88929B4F4EA002E2E78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2ED88829B4F4EA002E2E78 /* Preview Assets.xcassets */; };
-		2A2ED89229B51C11002E2E78 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2ED89129B51C11002E2E78 /* SegmentedPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		2A2ED88329B4F4E9002E2E78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A2ED88529B4F4EA002E2E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2ED88829B4F4EA002E2E78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2A2ED89129B51C11002E2E78 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
 		2A8BEEDB29B51DE700909DC6 /* CustomSegmentedPicker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CustomSegmentedPicker; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +55,6 @@
 			children = (
 				2A2ED88129B4F4E9002E2E78 /* CustomSegmentedPickerApp.swift */,
 				2A2ED88329B4F4E9002E2E78 /* ContentView.swift */,
-				2A2ED89129B51C11002E2E78 /* SegmentedPicker.swift */,
 				2A2ED88529B4F4EA002E2E78 /* Assets.xcassets */,
 				2A2ED88729B4F4EA002E2E78 /* Preview Content */,
 			);
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2ED88429B4F4E9002E2E78 /* ContentView.swift in Sources */,
-				2A2ED89229B51C11002E2E78 /* SegmentedPicker.swift in Sources */,
 				2A2ED88229B4F4E9002E2E78 /* CustomSegmentedPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
