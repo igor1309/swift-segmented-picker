@@ -9,6 +9,8 @@ let package = Package(
     ],
     products: [
         .segmentedPicker,
+        // examples
+        .example1,
     ],
     dependencies: [
     ],
@@ -23,6 +25,10 @@ private extension Product {
     static let segmentedPicker = library(
         name: .segmentedPicker,
         targets: [.customSegmentedPicker]
+    )
+    static let example1 = library(
+        name: .example1,
+        targets: [.example1]
     )
 }
 
