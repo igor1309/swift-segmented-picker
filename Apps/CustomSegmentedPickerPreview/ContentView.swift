@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  CustomSegmentedPicker
+//  CustomSegmentedPickerPreview
 //
 //  Created by Igor Malyarov on 05.03.2023.
 //
