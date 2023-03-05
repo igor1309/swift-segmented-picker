@@ -1,3 +1,3 @@
 # CustomSegmentedPicker
 
-A description of this package.
+Using `matchedGeometryEffect` to create custom picker.
