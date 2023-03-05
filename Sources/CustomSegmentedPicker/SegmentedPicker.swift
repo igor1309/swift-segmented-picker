@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SegmentedPicker<Tag, TagView>: View
+public struct SegmentedPicker<Tag, TagView>: View
 where Tag: Identifiable & Hashable,
       TagView: View {
     
@@ -16,7 +16,7 @@ where Tag: Identifiable & Hashable,
     private let tagView: (Tag, Bool) -> TagView
     @Namespace private var namespace
     
-    init(
+    public init(
         viewModel: ViewModel,
         tagView: @escaping (Tag, Bool) -> TagView
     ) {
@@ -24,7 +24,7 @@ where Tag: Identifiable & Hashable,
         self.tagView = tagView
     }
     
-    var body: some View {
+    public var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 ForEach(viewModel.tags, content: tagView)
@@ -65,13 +65,13 @@ extension SegmentedPicker {
 
 extension SegmentedPicker {
     
-    final class ViewModel: ObservableObject {
+    public final class ViewModel: ObservableObject {
         
         @Published private(set) var selectedTag: Tag
         
         let tags: [Tag]
         
-        init(selectedTag: Tag, tags: [Tag]) {
+        public init(selectedTag: Tag, tags: [Tag]) {
             self.selectedTag = selectedTag
             self.tags = tags
         }
